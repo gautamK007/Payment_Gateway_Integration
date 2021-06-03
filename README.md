@@ -1,4 +1,4 @@
-#PaymentGatewayIntegration
+# Payment Gateway Integration
 Sparks Foundation Web Development Internship Project : Payment Gateway Integration website. 
 A web application where payment gateway is integrated.
 
