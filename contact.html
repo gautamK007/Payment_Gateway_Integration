@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Payment Gateway Integration</title>
+</head>
+
+
+<body class="background">
+
+  <div class="content">
+
+    <nav class="navbar">
+      <div class="white">
+        <h1>RazorPay Payment Gateway Integration</h1>
+      </div>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <form>
+      <div class="container donate">
+        <br>
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name">
+        <br>
+        <label for="name">EMAIL</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email Address">
+        <br>
+        <label for="name">SUBJECT</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter Subject">
+        <br>
+        <label class="msg" for="name">MESSAGE</label>
+        <textarea name="message" id="message" rows="2" placeholder="Enter Message"></textarea>
+        <br>
+        <button type="submit" value="submit" class="btn" onclick="validation()">Send Message</button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+  <footer>
+    <p>This project is made by Gautam Kumar #GRIPJune2021@TSP.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
